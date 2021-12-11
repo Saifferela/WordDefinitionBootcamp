@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Word definition</string>
+    <string name="textViewLogo">Definition word.</string>
+    <string name="editTextEnterWord">Enter word.</string>
+    <string name="buttonSearch">Search</string>
+    <string name="noUserInput">Enter text!</string>
+</resources>

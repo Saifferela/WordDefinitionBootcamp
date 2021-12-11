@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewLogo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10sp"
+                android:baselineAligned="false"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/textViewLogo"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editTextEnterWord"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="50sp"
+                android:layout_marginTop="20sp"
+                android:backgroundTint="@color/teal_200"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/editTextEnterWord"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/textColorHint"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/buttonSearch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="130sp"
+                android:layout_marginTop="20sp"
+                android:backgroundTint="@color/teal_200"
+                android:baselineAligned="false"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/buttonSearch" />
+
+            <TextView
+                android:id="@+id/textViewResultPhonetic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:textAlignment="center"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:textColor="@color/textColorHint"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewResultPartOfSpeech"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:textAlignment="center"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:textColor="@color/textColorHint"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewResultDefinitions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:textAlignment="center"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:textColor="@color/textColorHint"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
